@@ -2,9 +2,21 @@
 
 Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
 
+## VS Code
+
+Open VS Code and import the settings, keybindings, and other files, such as code snippets from the [`vs-code`](/vs-code/) folder.
+
 ## Zsh
 
-Then amend your `~/.zshrc` to source the one in the dotfiles foler, eg
+The [`shell`](/shell/) folder contains scripts to set up the terminal prompt and aliases to use:
+
+- [Homebrew](https://brew.sh/) package manager for MacOS
+- [Git](https://git-scm.com/)
+- [Ruby](https://www.ruby-lang.org/en/)
+- [VS Code editor](https://code.visualstudio.com/)
+- Other dev tools including the [Mise](https://mise.jdx.dev/) package manager
+
+Amend your `~/.zshrc` to source the one in the dotfiles folder.
 
 ```sh
 source ~/dotfiles/zshrc.sh
