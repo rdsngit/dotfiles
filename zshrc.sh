@@ -21,6 +21,8 @@ source $SHELL_CONFIG_PATH/editor.sh
 
 # Aliases
 source $SHELL_CONFIG_PATH/aliases_git.sh
+source $SHELL_CONFIG_PATH/aliases_ruby.sh
+
 
 # ------------------------ #
 
