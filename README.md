@@ -2,6 +2,10 @@
 
 Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
 
+## Setup
+
+Clone the `dotfiles` repo into your home folder so it is located at `~/dotfiles`.
+
 ## VS Code
 
 Open VS Code and import the settings, keybindings, and other files, such as code snippets from the [`vs-code`](/vs-code/) folder.
