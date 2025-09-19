@@ -13,6 +13,9 @@
 
 SHELL_CONFIG_PATH="${HOME}/dotfiles/shell"
 
+# Mac specific settings including Homebrew and Mise
+source $SHELL_CONFIG_PATH/mac.sh
+
 # Prompt
 source $SHELL_CONFIG_PATH/prompt.sh
 
