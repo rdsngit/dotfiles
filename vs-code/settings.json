@@ -1,0 +1,120 @@
+{
+  // --- EDITOR ---
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Dracula",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.enableExperiments": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingDelete": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.preview": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "comments.visible": false,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    ".env*": "shellscript",
+    "config": "yaml"
+  },
+  // --- SEARCH ---
+  "search.exclude": {
+    "**/.babel.config.js": true,
+    "**/.gitignore": true,
+    "**/.haml-lint.yml": true,
+    "**/.log": true,
+    "**/.rubocop_todo.yml": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/*.cjs": true,
+    "**/*.log": true,
+    "**/*.min-latest.css": true,
+    "**/*.min-latest.js": true,
+    "**/*.min.css": true,
+    "**/*.sql": true,
+    "**/app/assets/builds": true,
+    "**/public/*.ico": true,
+    "**/public/*.png": true,
+    "**/public/assets": true,
+    "**/public/fonts": true,
+    "**/public/robots.txt": true,
+    "**/README.md":true,
+    "**/storage": true,
+    "**/tmp": true,
+    "**/vendor": true,
+    "**/yarn.lock": true
+  },
+  // --- TESTING ---
+  "testing.openTesting": "neverOpen",
+  "testing.automaticallyOpenPeekView": "never",
+  "testing.automaticallyOpenPeekViewDuringAutoRun": true,
+  "testing.followRunningTest": false,
+  "testing.saveBeforeTest": false,
+  "testing.showCoverageInExplorer": false,
+  // --- GIT ---
+  "git.showCommitInput": false,
+  "git.showInlineOpenFileAction": false,
+  "git.showProgress": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.enableStatusBarSync": false,
+  "git.showActionButton": {
+    "commit": false,
+    "publish": false,
+    "sync": false
+  },
+  "git.branchProtection": ["main", "master"],
+  // --- GIT LENS ---
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.ai.experimental.generateCommitMessage.enabled": false,
+  "gitlens.cloudPatches.enabled": false,
+  // --- GITHUB ---
+  "githubPullRequests.defaultMergeMethod": "squash",
+  "githubIssues.assignWhenWorking": false,
+  "githubIssues.issueCompletions.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.showPullRequestNumberInTree": true,
+  "githubIssues.createIssueTriggers": [],
+  // --- LANGUAGES ---
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
+  "hamlLint.useBundler": true,
+  "[javascript, typscript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "html.erb": "html"
+  },
+  "emmet.excludeLanguages": ["markdown", "haml"],
+  "tailwindCSS.includeLanguages": {
+    "html.erb": "html"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "testExplorer.useNativeTesting": true,
+  "testExplorer.addToEditorContextMenu": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "tailwindCSS.colorDecorators": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
