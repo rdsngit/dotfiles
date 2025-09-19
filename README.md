@@ -1,5 +1,7 @@
 # dotfiles
 
+Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
+
 ## Zsh
 
 Then amend your `~/.zshrc` to source the one in the dotfiles foler, eg
