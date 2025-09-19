@@ -9,6 +9,17 @@
 # ------------------------ #
 
 
+# SHELL
+
+SHELL_CONFIG_PATH="${HOME}/dotfiles/shell"
+
+# Prompt
+source $SHELL_CONFIG_PATH/prompt.sh
+
+
+# ------------------------ #
+
+
 # PRINT MESSAGE
 
 MESSAGE="%F{14}
