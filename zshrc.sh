@@ -16,6 +16,8 @@ SHELL_CONFIG_PATH="${HOME}/dotfiles/shell"
 # Prompt
 source $SHELL_CONFIG_PATH/prompt.sh
 
+# Aliases
+source $SHELL_CONFIG_PATH/aliases_git.sh
 
 # ------------------------ #
 
