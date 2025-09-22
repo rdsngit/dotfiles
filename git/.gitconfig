@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+	name = ""
+	email = ""
+	signingkey = ""
+
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgsign = true
+
+[pull]
+	rebase = true
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+	insteadOf = http://github.com/
+
+[url "ssh://gist@github.com/"]
+	insteadOf = https://gist.github.com/
+	insteadOf = http://gist.github.com/

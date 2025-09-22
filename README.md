@@ -6,6 +6,16 @@ Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
 
 Clone the `dotfiles` repo into your home folder so it is located at `~/dotfiles`.
 
+## Git
+
+Copy the `.gitconfig` file from the [`git`](/git/) into the root of your home directory.
+
+```sh
+cp ~/dotfiles/git/.gitconfig ~/
+```
+
+Add your name, email, and signing key to the `user` section of the `gitconfig`.
+
 ## VS Code
 
 Open VS Code and import the settings, keybindings, and other files, such as code snippets from the [`vs-code`](/vs-code/) folder.
