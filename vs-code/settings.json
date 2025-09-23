@@ -1,7 +1,6 @@
 {
   // --- EDITOR ---
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "Dracula",
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.enableExperiments": false,
@@ -19,9 +18,8 @@
   "editor.suggest.preview": true,
   "editor.inlineSuggest.enabled": true,
   "editor.stickyScroll.enabled": true,
-  "editor.formatOnSave": true,
+  // "editor.formatOnSave": true,
   "comments.visible": false,
-  "files.trimTrailingWhitespace": true,
   "files.associations": {
     ".env*": "shellscript",
     "config": "yaml"
@@ -29,6 +27,7 @@
   // --- SEARCH ---
   "search.exclude": {
     "**/.babel.config.js": true,
+    "**/CHANGELOG.md": true,
     "**/.gitignore": true,
     "**/.haml-lint.yml": true,
     "**/.log": true,
@@ -47,7 +46,7 @@
     "**/public/assets": true,
     "**/public/fonts": true,
     "**/public/robots.txt": true,
-    "**/README.md":true,
+    "**/README.md": true,
     "**/storage": true,
     "**/tmp": true,
     "**/vendor": true,
@@ -71,7 +70,10 @@
     "publish": false,
     "sync": false
   },
-  "git.branchProtection": ["main", "master"],
+  "git.branchProtection": [
+    "main",
+    "master"
+  ],
   // --- GIT LENS ---
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.rebaseEditor.ordering": "asc",
@@ -99,13 +101,19 @@
   "[javascript, typscript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  // there may be some files where we dont' want json formatting applied
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
   "emmet.includeLanguages": {
     "html.erb": "html"
   },
-  "emmet.excludeLanguages": ["markdown", "haml"],
+  "emmet.excludeLanguages": [
+    "markdown",
+    "haml"
+  ],
   "tailwindCSS.includeLanguages": {
     "html.erb": "html"
   },
@@ -116,5 +124,18 @@
   "tailwindCSS.colorDecorators": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.formatOnSave": true,
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "mise"
+  },
+  "workbench.colorTheme": "Dracula Theme",
+  "rubyLsp.testTimeout": 10,
+  "rubyLsp.addonSettings": {},
+  "testing.automaticallyOpenTestResults": "neverOpen",
+  "prettier.vueIndentScriptAndStyle": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "explorer.confirmDelete": false
 }
