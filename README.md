@@ -6,6 +6,28 @@ Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
 
 Clone the `dotfiles` repo into your home folder so it is located at `~/dotfiles`.
 
+## Mise
+
+Install the Mise development environment setup tool.
+
+```sh
+brew install mise
+```
+
+- See the Mise docs for more info: https://mise.jdx.dev/getting-started.html
+
+Copy the mise config to the location in the home directory.
+
+```sh
+cp ~/dotfiles/mise/config.toml ~/.config/mise
+```
+
+You can backup the mise config file within the home `~/.config/mise` directory to the `~/dotfiles/mise` directory by using the following shell script:
+
+```sh
+~/dotfiles/mise/config_backup.sh
+```
+
 ## Git
 
 Copy the `.gitconfig` file from the [`git`](/git/) into the root of your home directory.
