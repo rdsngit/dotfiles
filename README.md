@@ -1,6 +1,6 @@
 # dotfiles
 
-Configuration for Z Shell, Vim, Ruby, Git and other software development tools.
+Configuration for Mise, Z Shell, Vim, Ruby, Git and other software development tools.
 
 ## Setup
 
@@ -14,7 +14,7 @@ Install the Mise development environment setup tool.
 brew install mise
 ```
 
-- See the Mise docs for more info: https://mise.jdx.dev/getting-started.html
+- See the Mise docs for more info: https://mise.jdx.dev
 
 Copy the mise config to the location in the home directory.
 
