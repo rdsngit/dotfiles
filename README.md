@@ -1,10 +1,26 @@
 # dotfiles
 
-Configuration for Mise, Z Shell, Vim, Ruby, Git and other software development tools.
+Configuration for iTerm2, Mise, Z Shell, Vim, Ruby, Git and other software development tools.
 
 ## Setup
 
 Clone the `dotfiles` repo into your home folder so it is located at `~/dotfiles`.
+
+## iTerm2
+
+Install using [homebrew](https://brew.sh/).
+
+```sh
+brew install mise
+```
+
+- https://iterm2.com/
+
+Open iTerm2 then navigate to the Settings tab then select the checkbox titled "Load settings from a custom folder or URL and choose the directory located at `User/[USER_HOME_DIRECTORY]/dotfiles/iterm2`.
+
+In the Profiles tab within the Colors section you can import a color preset of your choice, for example the Dracula theme for iTerm2.
+
+- https://draculatheme.com/iterm
 
 ## Mise
 
