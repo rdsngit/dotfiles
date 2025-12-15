@@ -6,6 +6,20 @@ Configuration for iTerm2, Mise, Z Shell, Vim, Ruby, Git and other software devel
 
 Clone the `dotfiles` repo into your home folder so it is located at `~/dotfiles`.
 
+## Homebrew for MacOS
+
+The [homebrew](/homebrew/) directory contains a [Brewfile](/homebrew/Brewfile) containing a list of packages for MacOS as well as extensions [VS Code](https://code.visualstudio.com/). They list includes some commonly used dependencies and development tools for working on Ruby on Rails applications and related software, such as [Dockerfiles](https://docs.docker.com/reference/dockerfile/).
+
+To use this, first of all install the [homebrew](https://brew.sh/) package manager. Then navigate to the repo's [/homebrew](/homebrew/) directory and run the terminal command:
+
+```sh
+brew bundle
+```
+
+For more information about using Brewfiles see the following homebrew documentation page:
+
+- https://docs.brew.sh/Brew-Bundle-and-Brewfile
+
 ## iTerm2
 
 Install using [homebrew](https://brew.sh/).
