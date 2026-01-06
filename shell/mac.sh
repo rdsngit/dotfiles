@@ -27,6 +27,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 BREW_PREFIX=$(brew --prefix)
 
+# add postgresql@16 to path
+export PATH="$BREW_PREFIX/opt/postgresql@16/bin:$PATH"
+
 # load brew package for zsh syntax highlighting
 source "$BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
