@@ -30,6 +30,11 @@ BREW_PREFIX=$(brew --prefix)
 # add postgresql@16 to path
 export PATH="$BREW_PREFIX/opt/postgresql@16/bin:$PATH"
 
+# add Python pipx to path
+# https://github.com/pypa/pipx
+# Created by `pipx ensurepath` on 2026-01-06 10:13:45
+export PATH="$PATH:/Users/ryan.davidson/.local/bin"
+
 # load brew package for zsh syntax highlighting
 source "$BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
